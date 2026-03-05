@@ -71,6 +71,7 @@ public class Main {
 		}  while (opcion != 0);
 	}
 
+	//Parte 1 - Ciclos y Operaciones Numéricas
 	//Ejercicio 1
 	public static void sumaDivisibles4() {
 		  System.out.print("Ingrese un número: ");
@@ -129,6 +130,7 @@ public class Main {
 		
 	}
 
+	//Ejercicio 4
 	public static void promedioPares() {
 	    System.out.print("Ingrese un número: ");
         int n = sc.nextInt();
@@ -151,6 +153,7 @@ public class Main {
 		
 	}
 
+	//Ejercicio 5
 	public static void sumaDigitos() {
 		System.out.println("Ingrese un número: ");
 		int n = sc.nextInt();
@@ -164,9 +167,24 @@ public class Main {
 		}
 		System.out.println("Suma de dígitos: " + suma);
 	}
-
+	
+	//Parte 2 - Condiciones y Divisibilidad
+	//Ejercicio 6
+	
 	public static void multiplo7o11() {
-		// TODO Auto-generated method stub
+		 System.out.print("Ingrese un número: ");
+	        int n = sc.nextInt();
+
+	        if (n % 7 == 0 && n % 11 == 0)
+	            System.out.println("Es múltiplo de 7 o de 11");
+	        else if
+	        	(n % 7 == 0)
+	            System.out.println("Es múltiplo de 7 pero no de 11");
+	        else if
+	        	(n % 11 == 0)
+	        	System.out.println("Es múltiplo de 11 pero no de 7");
+	        else
+	        	System.out.println("No es múltiplo de 7 ni de 11");
 		
 	}
 
