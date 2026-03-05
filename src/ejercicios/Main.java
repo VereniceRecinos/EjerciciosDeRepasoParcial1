@@ -130,7 +130,24 @@ public class Main {
 	}
 
 	public static void promedioPares() {
-		// TODO Auto-generated method stub
+	    System.out.print("Ingrese un número: ");
+        int n = sc.nextInt();
+
+        int suma = 0;
+        int contador = 0;
+
+        for (int i = 1; i <= n; i++) {
+
+            if (i % 2 == 0) {
+                suma += i;
+                contador++;
+            }
+        }
+
+        if (contador > 0)
+            System.out.println("Promedio: " + (suma / contador));
+        else
+            System.out.println("No hay números pares.");
 		
 	}
 
