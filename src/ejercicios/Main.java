@@ -87,8 +87,17 @@ public class Main {
 		
 	}
 
+	//Ejercicio 2
 	public static void factorial() {
-		// TODO Auto-generated method stub
+		   System.out.print("Ingrese un número: ");
+	        int n = sc.nextInt();
+	        long fact = 1;
+
+	        for (int i = 1; i <= n; i++) {
+	            fact *= i;
+	        }
+
+	        System.out.println("Factorial: " + fact);
 		
 	}
 
