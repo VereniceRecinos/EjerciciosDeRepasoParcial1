@@ -202,9 +202,18 @@ public class Main {
 	        System.out.println();	
 	}
 
+	//Ejercicio 8
 	public static void horaDia() {
-		// TODO Auto-generated method stub
 		
+		System.out.print("Ingrese hora (0-23): ");
+        int h = sc.nextInt();
+
+        if (h >= 0 && h < 12)
+            System.out.println("Mañana");
+        else if (h >= 12 && h < 19)
+            System.out.println("Tarde");
+        else
+            System.out.println("Noche");
 	}
 
 	public static void numeroRomano() {
