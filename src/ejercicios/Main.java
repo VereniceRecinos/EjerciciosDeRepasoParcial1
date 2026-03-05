@@ -101,8 +101,31 @@ public class Main {
 		
 	}
 
+	//Ejercicio 3
 	public static void contarNumeros() {
-		// TODO Auto-generated method stub
+		   System.out.print("Cantidad de números: ");
+	        int n = sc.nextInt();
+
+	        int positivos = 0;
+	        int negativos = 0;
+	        int ceros = 0;
+
+	        for (int i = 1; i <= n; i++) {
+
+	            System.out.print("Ingrese un número: ");
+	            int num = sc.nextInt();
+
+	            if (num > 0)
+	                positivos++;
+	            else if (num < 0)
+	                negativos++;
+	            else
+	                ceros++;
+	        }
+
+	        System.out.println("Positivos: " + positivos);
+	        System.out.println("Negativos: " + negativos);
+	        System.out.println("Ceros: " + ceros);
 		
 	}
 
