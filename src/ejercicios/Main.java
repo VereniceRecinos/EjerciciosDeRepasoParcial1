@@ -216,9 +216,32 @@ public class Main {
             System.out.println("Noche");
 	}
 
+	//Parte 3: Uso de switch
+	//Ejercicio 9
 	public static void numeroRomano() {
-		// TODO Auto-generated method stub
 		
+		System.out.print("Ingrese un número (1-5): ");
+		int n = sc.nextInt();
+		
+		switch(n) {
+		case 1:
+			System.out.println("Número romano: I");
+			break;
+		case 2:
+			System.out.println("Número romano: II");
+			break;
+		case 3:
+			System.out.println("Número romano: III");
+			break;
+		case 4:
+			System.out.println("Número romano: IV");
+			break;
+		case 5:
+			System.out.println("Número romano: V");
+			break;
+		default:
+			System.out.println("Número fuera de rango");
+		}
 	}
 
 	public static void calculadora() {
