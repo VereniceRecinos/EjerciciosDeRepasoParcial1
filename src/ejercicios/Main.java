@@ -188,9 +188,18 @@ public class Main {
 		
 	}
 
+	//Ejercicio 7
 	public static void divisibles3No2() {
-		// TODO Auto-generated method stub
-		
+		 System.out.print("Ingrese un número: ");
+	        int n = sc.nextInt();
+
+	        for (int i = 1; i <= n; i++) {
+
+	            if (i % 3 == 0 && i % 2 != 0) {
+	                System.out.print(i);
+	            }
+	        }
+	        System.out.println();	
 	}
 
 	public static void horaDia() {
