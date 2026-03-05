@@ -244,8 +244,32 @@ public class Main {
 		}
 	}
 
+	//Ejercicio 10
 	public static void calculadora() {
-		// TODO Auto-generated method stub
+		
+		System.out.print("Ingrese el primer número: ");
+		int n1 = sc.nextInt();
+		System.out.print("Ingrese el segundo número: ");
+		int n2 = sc.nextInt();
+			
+		System.out.print("\n1. Sumar \n2. Restar \n3. Multiplicar \nElija una opción: ");
+		int opcion = sc.nextInt();	
+		
+		switch(opcion) {
+		case 1:
+			System.out.println("La suma es: " + (n1+n2));
+			break;
+		case 2:
+			System.out.println("La resta es: " + (n1-n2));
+			break;
+		case 3:
+			System.out.println("La multiplicación es: " + (n1*n2));
+			break;
+		default:
+			System.out.println("La opción es inválida");
+		}
+		
+		
 		
 	}
 
