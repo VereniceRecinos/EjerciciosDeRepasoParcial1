@@ -71,8 +71,19 @@ public class Main {
 		}  while (opcion != 0);
 	}
 
+	//Ejercicio 1
 	public static void sumaDivisibles4() {
-		// TODO Auto-generated method stub
+		  System.out.print("Ingrese un número: ");
+	        int n = sc.nextInt();
+	        int suma = 0;
+
+	        for (int i = 1; i <= n; i++) {
+	            if (i % 4 == 0) {
+	                suma += i;
+	            }
+	        }
+
+	        System.out.println("Suma: " + suma);
 		
 	}
 
