@@ -152,8 +152,17 @@ public class Main {
 	}
 
 	public static void sumaDigitos() {
-		// TODO Auto-generated method stub
+		System.out.println("Ingrese un número: ");
+		int n = sc.nextInt();
 		
+		int suma = 0;
+		
+		while (n != 0) {
+			
+			suma += n % 10;
+			n /= 10;
+		}
+		System.out.println("Suma de dígitos: " + suma);
 	}
 
 	public static void multiplo7o11() {
