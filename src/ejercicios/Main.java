@@ -176,7 +176,7 @@ public class Main {
 	        int n = sc.nextInt();
 
 	        if (n % 7 == 0 && n % 11 == 0)
-	            System.out.println("Es múltiplo de 7 o de 11");
+	            System.out.println("Es múltiplo de 7 y de 11");
 	        else if
 	        	(n % 7 == 0)
 	            System.out.println("Es múltiplo de 7 pero no de 11");
