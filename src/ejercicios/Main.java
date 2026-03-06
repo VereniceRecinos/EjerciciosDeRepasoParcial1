@@ -345,8 +345,31 @@ public class Main {
 		
 	}
 
+	//Ejercicio 15
 	public static void promedioNegativos() {
-		// TODO Auto-generated method stub
+		 System.out.print("Cantidad de números: ");
+	        int n = sc.nextInt();
+	        
+	        System.out.println("Ingrese los números: ");
+
+	        int suma = 0;
+	        int contador = 0;
+
+	        for (int i = 1; i <= n; i++) {
+
+	            int num = sc.nextInt();
+
+	            if (num < 0) {
+
+	                suma += num;
+	                contador++;
+	            }
+	        }
+
+	        if (contador > 0)
+	            System.out.println("Promedio: " + ((double)suma / contador));
+	        else
+	            System.out.println("No hay negativos");
 		
 	}
 
