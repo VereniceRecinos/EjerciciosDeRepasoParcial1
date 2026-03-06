@@ -437,9 +437,15 @@ public class Main {
 	            System.out.println("La suma es IMPAR");
 	}
 
+	//Ejercicio 20
 	public static void celsiusFahrenheit() {
-		// TODO Auto-generated method stub
 		
+		System.out.print("Temperatura en Celsius: ");
+        double c = sc.nextDouble();
+
+        double f = (c * 9.0 / 5) * c + 32;
+
+        System.out.println("Temperatura en Fahrenheit: " + f);
 	}
 
 }
