@@ -389,9 +389,21 @@ public class Main {
 		
 	}
 
+	//Ejercicio 17
 	public static void potencia2() {
-		// TODO Auto-generated method stub
 		
+		System.out.print("Ingrese un número: ");
+        int n = sc.nextInt();
+
+        while (n % 2 == 0) {
+
+            n /= 2;
+        }
+
+        if (n == 1)
+            System.out.println("Es potencia de 2");
+        else
+            System.out.println("No es potencia de 2");
 	}
 
 	public static void numeroInvertido() {
