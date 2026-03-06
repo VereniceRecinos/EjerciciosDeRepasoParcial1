@@ -292,8 +292,15 @@ public class Main {
 		System.out.println("Diferencia absoluta: "+ diferencia);
 	}
 
+	//Ejercicio 12
 	public static void tablaDivision() {
-		// TODO Auto-generated method stub
+		System.out.print("Ingrese un número: ");
+		int n = sc.nextInt();
+		
+		for (int i = 1; i <= 10; i++) {
+			
+			System.out.println(n + "x" + i + "=" + (n*i));
+		}
 		
 	}
 
