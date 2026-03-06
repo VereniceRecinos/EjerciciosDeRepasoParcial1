@@ -373,8 +373,19 @@ public class Main {
 		
 	}
 
+	//Parte 5: Patrones y Transformaciones
+	//Ejercicio 16
 	public static void multiplos6() {
-		// TODO Auto-generated method stub
+		
+		System.out.print("Ingrese un número: ");
+        int n = sc.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+
+            System.out.print((i * 6) + " ");
+        }
+
+        System.out.println();
 		
 	}
 
