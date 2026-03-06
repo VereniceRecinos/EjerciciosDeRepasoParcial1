@@ -299,13 +299,16 @@ public class Main {
 		
 		for (int i = 1; i <= 10; i++) {
 			
-			System.out.println(n + "x" + i + "=" + (n*i));
+			System.out.println(n + "/" + i + "=" + ((double)n/i));
 		}
-		
 	}
 
+	//Ejercicio 13
 	public static void digitosPares() {
-		// TODO Auto-generated method stub
+		System.out.print("Ingrese un número");
+		int n = sc.nextInt();
+		
+		
 		
 	}
 
