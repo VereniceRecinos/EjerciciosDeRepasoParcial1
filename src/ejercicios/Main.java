@@ -305,10 +305,22 @@ public class Main {
 
 	//Ejercicio 13
 	public static void digitosPares() {
-		System.out.print("Ingrese un número");
+		System.out.print("Ingrese un número: ");
 		int n = sc.nextInt();
 		
-		
+		  int contador = 0;
+
+	        while (n != 0) {
+
+	            int dig = n % 10;
+
+	            if (dig % 2 == 0)
+	                contador++;
+
+	            n /= 10;
+	        }
+
+	        System.out.println("Dígitos pares: " + contador);
 		
 	}
 
