@@ -324,8 +324,24 @@ public class Main {
 		
 	}
 
+	//Ejercicio 14
 	public static void numeroTriangular() {
-		// TODO Auto-generated method stub
+		 System.out.print("Ingrese un número: ");
+	        int n = sc.nextInt();
+
+	        int suma = 0;
+	        int k = 1;
+
+	        while (suma < n) {
+
+	            suma += k;
+	            k++;
+	        }
+
+	        if (suma == n)
+	            System.out.println("Es número triangular");
+	        else
+	            System.out.println("No es número triangular");
 		
 	}
 
