@@ -406,9 +406,21 @@ public class Main {
             System.out.println("No es potencia de 2");
 	}
 
+	//Ejercicio 18
 	public static void numeroInvertido() {
-		// TODO Auto-generated method stub
 		
+		 System.out.print("Ingrese un número: ");
+	        int n = sc.nextInt();
+
+	        int invertido = 0;
+
+	        while (n != 0) {
+
+	            invertido = invertido * 10 + (n % 10);
+	            n /= 10;
+	        }
+
+	        System.out.println("Número invertido: " + invertido);
 	}
 
 	public static void sumaParImpar() {
