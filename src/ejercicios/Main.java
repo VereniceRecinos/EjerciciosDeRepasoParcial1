@@ -71,7 +71,7 @@ public class Main {
 		}  while (opcion != 0);
 	}
 
-	//Parte 1 - Ciclos y Operaciones Numéricas
+	//Parte 1: Ciclos y Operaciones Numéricas
 	//Ejercicio 1
 	public static void sumaDivisibles4() {
 		  System.out.print("Ingrese un número: ");
@@ -168,7 +168,7 @@ public class Main {
 		System.out.println("Suma de dígitos: " + suma);
 	}
 	
-	//Parte 2 - Condiciones y Divisibilidad
+	//Parte 2: Condiciones y Divisibilidad
 	//Ejercicio 6
 	
 	public static void multiplo7o11() {
@@ -273,9 +273,23 @@ public class Main {
 		
 	}
 
+	//Parte 4: Análisis Numérico
+	//Ejercicio 11
 	public static void mayorMenor() {
-		// TODO Auto-generated method stub
 		
+		System.out.print("Ingrese el primer número: ");
+		int a = sc.nextInt();
+		System.out.print("Ingrese el segundo número: ");
+		int b = sc.nextInt();
+		
+		int mayor = Math.max(a, b);
+		int menor = Math.min(a, b);
+		
+		int diferencia = Math.abs(a-b);
+		
+		System.out.println("Mayor: " + mayor);
+		System.out.println("Menor: " + menor);
+		System.out.println("Diferencia absoluta: "+ diferencia);
 	}
 
 	public static void tablaDivision() {
