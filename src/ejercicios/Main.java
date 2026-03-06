@@ -31,7 +31,7 @@ public class Main {
             System.out.println("16. Primeros n múltiplos de 6");
             System.out.println("17. Determinar si es potencia de 2");
             System.out.println("18. Número invertido");
-            System.out.println("19. Suma de 1..n es par o impar");
+            System.out.println("19. Suma de 1...n es par o impar");
             System.out.println("20. Convertir Celsius a Fahrenheit");
             System.out.println("0. Salir");
             System.out.print("Seleccione una opción: ");
@@ -423,9 +423,18 @@ public class Main {
 	        System.out.println("Número invertido: " + invertido);
 	}
 
+	//Ejercicio 19
 	public static void sumaParImpar() {
-		// TODO Auto-generated method stub
 		
+		 System.out.print("Ingrese un número: ");
+	        int n = sc.nextInt();
+
+	        int suma = (n * (n + 1)) / 2;
+
+	        if (suma % 2 == 0)
+	            System.out.println("La suma es PAR");
+	        else
+	            System.out.println("La suma es IMPAR");
 	}
 
 	public static void celsiusFahrenheit() {
